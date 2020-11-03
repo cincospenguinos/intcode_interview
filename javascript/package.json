@@ -1,0 +1,8 @@
+{
+  "name": "IntcodeInterview",
+  "version": "1.0.0",
+  "description": "Interview building an Intcode computer adapted from ruby",
+  "main": "index.js",
+  "author": "Andre LaFleur",
+  "license": "MIT"
+}
