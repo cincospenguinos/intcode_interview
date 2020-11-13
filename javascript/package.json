@@ -1,8 +1,20 @@
 {
   "name": "IntcodeInterview",
+  "type": "module",
   "version": "1.0.0",
   "description": "Interview building an Intcode computer adapted from ruby",
-  "main": "index.js",
+  "main": "intcode.js",
   "author": "Andre LaFleur",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.2"
+  },
+  "scripts": {
+  	"test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "jest": {
+  	"transformIgnorePatterns": [
+  		"node_modules"
+  	]
+  }
 }
